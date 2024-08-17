@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+body{
+    background-image: url(Pepperoni.png);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+}
+
+.logo img{
+    margin-top: -100px;
+    margin-left: -120px;
+}
+
+.menu{
+    
+}
+
+.menu-list{
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    display: flex;  
+    margin-top: 80px;
+}
+
+.carrinho{
+    width:100px;
+    height:100px;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.lupa{
+    width:80px;
+    height:80px;
+    margin-top: -20px;
+    margin-left: 90px;
+}
+
+.all{
+    margin-left:50px;
+}
+
+.all a{
+    color: white;
+    text-decoration: none;
+}
+
+.all a:hover{
+    color: red;
+}
+
+.carrinho a:hover{
+    fill: red;
+}
+
+.lupa a:hover{
+    fill: red;
+}
+
+h1{
+    color:red;
+    font-size: 96px;
+    text-align: center;
+    margin-top: -120px;
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 100px;
+}
+

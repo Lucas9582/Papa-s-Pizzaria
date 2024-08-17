@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    
+}
+
+body{
+    background-image: url(4_Queijos.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+}
+
+.logo img{
+    margin-top: -100px;
+    margin-left: -140px;
+}
+
+.menu{
+    
+}
+
+.menu-list{
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    display: flex;  
+    margin-top: 80px;
+    text-shadow: 2px 2px black;
+}
+
+.carrinho{
+    width:100px;
+    height:100px;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.lupa{
+    width:80px;
+    height:80px;
+    margin-top: -20px;
+    margin-left: 90px;
+}
+
+.all{
+    margin-left:50px;
+}
+
+.all a{
+    color: white;
+    text-decoration: none;
+}
+
+.all a:hover{
+    color: red;
+}
+
+.carrinho a:hover{
+    fill: red;
+}
+
+.lupa a:hover{
+    fill: red;
+}
+
+h1{
+    color:red;
+    font-size: 96px;
+    text-align: center;
+    margin-top: -170px;
+    text-shadow: 2px 2px black;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-shadow: 2px 2px black;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+h4{
+    color: white;
+    font-size: 80px;
+    text-shadow: 2px 2px black;
+}
+
+h5{
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.geral{
+    display: flex;
+}
+
+.sabor{
+    display: flex;
+    margin-top: 20px;
+}
+
+.form{
+    margin-left: 800px;
+    margin-top: 30px;
+}
+
+.pagamento a{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.entrega{
+    padding-top:20px;
+}
+
+.endereco{
+    width: 320px;
+    height: 50px;
+}
+
+.debito{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    padding: 5px;
+}
+
+.confirmar{
+    width:320px;
+    height:50px;
+    margin-top: 30px;
+}
+
+
